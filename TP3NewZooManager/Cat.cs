@@ -15,4 +15,9 @@ public class Cat : Animal{
 	public override void Manger(string food) {
 		Console.WriteLine("Miaou, miam");
 	}
+
+	public override void Talk() {
+		Console.Write("Miaou ! ");
+		base.Talk();
+	}
 }
