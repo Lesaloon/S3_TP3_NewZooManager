@@ -1,4 +1,6 @@
-public abstract class Animal {
+using TP3NewZooManager.Interface;
+
+public abstract class Animal : IAnimal {
 	public string Name { get; set; }
 	public int Age { get; set; }
 	public string Race { get; set; }
