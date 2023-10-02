@@ -1,9 +1,7 @@
-namespace TP3NewZooManager; 
+namespace TP3NewZooManager;
 
-public class Cat : Animal{
-
-	public Cat(string name, int age, string race) : base ( name, age, race ) {
-		
+public class Cat : Animal {
+	public Cat(string name, int age, string race) : base(name, age, race) {
 	}
 
 	public Cat() {
